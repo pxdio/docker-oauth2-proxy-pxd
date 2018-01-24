@@ -1,0 +1,10 @@
+<h1 id="title">Single Sign-On</h1>
+<div id="content">
+	<p>This computer system is for authorized use only. Do not continue unless you have explicit authorization.</p>
+	<form method="get" action="{{ .ProxyPrefix }}/start">
+		<input type="hidden" name="rd" value="{{ .Redirect }}"/>
+		<div class="button-group">
+			<button type="submit">Log In</button>
+		</div>
+	</form>
+</div>
